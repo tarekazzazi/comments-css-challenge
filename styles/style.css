@@ -23,8 +23,8 @@ body{
     padding: 5px;
     width: 20px;
     height: auto;
-    background-color: aqua;
-    border: solid grey;
+    background-color:lightgray;
+    border: solid lightgray;
     
     
 }
@@ -33,12 +33,13 @@ body{
     opacity: 0.6;
     cursor: pointer;
     color: darkblue;
-    background-color: aqua;
-    border: aqua;
+    background-color: lightgray;
+    border: lightgray;
    
 }
 .changeLike:hover { opacity: 2;}
 
 ul{
     padding-left: 5px;
+    color: darkblue;
 }
