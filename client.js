@@ -7,6 +7,7 @@ function clickHandlers(){
     console.log('jQ ready');
     $('.changeLikesBox').on('click','#plusBtn',addLike)
     $('.changeLikesBox').on('click','#minusBtn',removeLike)
+    $('#sendBtn').on('click', addNewComment);
 }
 
 let numberLikes = 0;
@@ -31,5 +32,11 @@ function removeLike(){
 function displayLikes() {
     $('#displayNumLikesForPost').empty();
     $('#displayNumLikesForPost').append(`${numberLikes}`);
+    
+}
+
+function addNewComment() {
+    console.log('yeye button clicked');
+    
     
 }
