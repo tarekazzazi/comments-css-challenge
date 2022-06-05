@@ -1,6 +1,4 @@
-h1{
-    color: red;
-}
+
 body{
     background-color: azure;
     margin: 25px;
@@ -84,10 +82,18 @@ img{
     right: 100px;
     padding: 0.6em;
     width: 75px;
-    background-color: rgb(34, 34, 149);
-    border-color: darkblue;
+    background-color: hsl(238, 40%, 52%);
+    border: transparent;
     color: aliceblue;
     border-radius: 5px;
 }
 
 #sendBtn:hover{opacity: .8; }
+
+.replyBtn{
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    color: hsl(238, 40%, 52%);
+    background-color: transparent;
+    border: transparent;
+}
