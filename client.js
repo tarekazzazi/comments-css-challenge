@@ -36,7 +36,7 @@ function displayLikes() {
 }
 
 function addNewComment() {
-    console.log('yeye button clicked');
-    
+    $('#inputText').append($('#txtBox').val());
+    $('#txtBox').val('');
     
 }
