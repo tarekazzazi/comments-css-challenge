@@ -6,7 +6,8 @@ body{
     margin: 25px;
     padding: 10px;
 }
-.addNewComment{
+.commentPost{
+    margin: auto;
     border-radius: 5px;
     position: relative;
     padding: 25px;
@@ -48,4 +49,29 @@ ul{
     padding-left: 3em;
 }
 
+.addNewComment{
+    height: 120px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;
+    padding-top: 20px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    border-radius: 5px;
+}
 
+textarea{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 1em;
+    width: 350px;
+    height: 50px;
+    resize: none;
+}
+
+img{
+    padding-right: 10px;
+    padding-bottom: 40px;
+    width: 35px;
+}
