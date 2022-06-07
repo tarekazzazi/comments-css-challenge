@@ -1,3 +1,99 @@
-h1{
-    color: red;
+
+body{
+    background-color: azure;
+    margin: 25px;
+    padding: 10px;
+}
+.commentPost{
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    padding: 25px;
+    height: 120px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+.changeLikesBox{
+    border-radius: 5px;
+    position: absolute;
+    margin: auto;
+    padding: 5px;
+    width: 20px;
+    height: auto;
+    background-color:lightgray;
+    border: solid lightgray;
+    
+    
+}
+
+.changeLike{
+    opacity: 0.6;
+    cursor: pointer;
+    color: darkblue;
+    background-color: lightgray;
+    border: lightgray;
+   
+}
+.changeLike:hover { opacity: 2;}
+
+ul{
+    padding-left: 5px;
+    color: darkblue;
+}
+
+#responseBox{
+    padding-left: 3em;
+}
+
+.addNewComment{
+    height: 120px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 25px;
+    padding-top: 20px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    
+}
+
+textarea{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 1em;
+    width: 330px;
+    height: 50px;
+    resize: none;
+}
+
+img{
+    padding-right: 10px;
+    padding-bottom: 40px;
+    width: 35px;
+}
+
+#sendBtn{
+    opacity: 1;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    padding: 0.6em;
+    width: 75px;
+    background-color: hsl(238, 40%, 52%);
+    border: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#sendBtn:hover{opacity: .8; }
+
+.replyBtn{
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    color: hsl(238, 40%, 52%);
+    background-color: transparent;
+    border: transparent;
 }
